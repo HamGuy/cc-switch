@@ -1,5 +1,23 @@
 # cc-switch: Claude Code Environment Variable Switch Tool
 
+[点击查看中文说明](#cc-switch中文说明)
+
+## Quick Remote Install
+You can install cc-switch directly via one command (macOS/Linux/WSL):
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/HamGuy/cc-switch/main/install.sh)
+```
+Or (if wget is preferred):
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/HamGuy/cc-switch/main/install.sh)
+```
+For Windows (PowerShell):
+```powershell
+irm https://raw.githubusercontent.com/HamGuy/cc-switch/main/install.ps1 | iex
+```
+
+---
+
 ## Supported Platforms
 - macOS/Linux (Bash script: install.sh)
 - Windows (PowerShell script: install.ps1)
@@ -62,12 +80,23 @@ For customization or extension, please modify `cc_switch.py`.
 
 ---
 
+# cc-switch中文说明
+
 # cc-switch：Claude Code 环境变量切换工具
 
-## 适用平台
-- macOS/Linux（Bash 脚本：install.sh）
-- Windows（PowerShell 脚本：install.ps1）
-- Windows WSL（使用 install.sh）
+## 一键远程安装
+你可以通过以下命令一键安装 cc-switch（macOS/Linux/WSL）：
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/HamGuy/cc-switch/main/install.sh)
+```
+或（如果更喜欢 wget）：
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/HamGuy/cc-switch/main/install.sh)
+```
+Windows（PowerShell）：
+```powershell
+irm https://raw.githubusercontent.com/HamGuy/cc-switch/main/install.ps1 | iex
+```
 
 ---
 

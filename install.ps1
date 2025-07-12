@@ -1,5 +1,4 @@
 # PowerShell install script for cc-switch
-# 自动安装 ccswitch 到 Windows 用户目录，并配置 PATH
 
 $script = Join-Path (Get-Location) "cc_switch.py"
 $targetDir = "$env:USERPROFILE\bin"
